@@ -12,7 +12,7 @@ export const load: PageServerLoad = async ({ params, cookies, locals }) => {
 	if (!await getStaffRoles(locals.session.userId, 'admin')) {
 		redirect(302, '404');
 	}
-
+	
 	const userData = await prisma.roster.findMany({
 		select: {
 			cid: true,

@@ -106,7 +106,6 @@ export const load: PageServerLoad = async ({ locals }) => {
           lastName: true,
           rating: true,
           homeFacility: true,
-          cid: true
         }
       }
     },

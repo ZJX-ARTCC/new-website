@@ -103,7 +103,6 @@
 			<div class="flex-wrap justify-items-center mx-10">
 				<h1 class="text-lg text-grey-300 text-center font-bold mb-3">Select Quarter</h1>
 				<select bind:value={quarterInt} on:change={updateTable}>
-					<option>Select Quarter</option>
 					<option value="1">Q1 (January - March)</option>
 					<option value="2">Q2 (April - June)</option>
 					<option value="3">Q3 (July - September)</option>
